@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  norrangsvagen-se:
+    image: ghcr.io/norrangsvagen-se/norrangsvagen.se:edge
+    restart: unless-stopped
+    ports:
+      - 8880:80
