@@ -1,5 +1,5 @@
 # use nginx alpine-slim image
-FROM nginx:1.27.5-alpine-slim
+FROM nginx:1.29.0-alpine-slim
 
 # copy public_html content to nginx default directory
 COPY public_html /usr/share/nginx/html
